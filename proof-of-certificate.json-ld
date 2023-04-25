@@ -1,0 +1,37 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "ProofOfCertificate": {
+        "@id": "https://raw.githubusercontent.com/the25thbamm/proofOfShip/master/proof-of-ship/proof-of-ship.json-ld#ProofOfShip",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://raw.githubusercontent.com/the25thbamm/proofOfShip/master/proof-of-ship/proof-of-ship-vocab.md#",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "age": {
+            "@id": "vocab:age",
+            "@type": "xsd:integer"
+          },
+          "year": {
+            "@id": "vocab:year",
+            "@type": "xsd:integer"
+          },
+          "month": {
+            "@id": "vocab:month",
+            "@type": "xsd:integer"
+          },
+          "date": {
+            "@id": "vocab:date",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
